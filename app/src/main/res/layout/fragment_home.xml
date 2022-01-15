@@ -7,6 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
+    <!-- MapView -->
+    <com.esri.arcgisruntime.mapping.view.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.esri.arcgisruntime.mapping.view.MapView>
+
+
     <TextView
         android:id="@+id/text_home"
         android:layout_width="match_parent"
@@ -28,7 +35,7 @@
         android:layout_alignTop="@id/fab"
         android:layout_toLeftOf="@id/fab"
         android:textAlignment="textEnd"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <TextView
@@ -38,7 +45,7 @@
         android:layout_below="@id/weather_info"
         android:layout_toLeftOf="@id/fab"
         android:textAlignment="textEnd"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -52,4 +59,21 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:src="@drawable/weather_icon" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="22dp"
+        android:background="#00000000"
+        android:popupBackground="#00000000"
+        android:overlapAnchor="false"
+        />
+
+
+
+
+
 </RelativeLayout>

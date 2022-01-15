@@ -3,4 +3,9 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="location_permission_denied">LocationDisplayManager cannot run because location permission was denied</string>
+    <!-- Recreation Feature Service Facilities URL -->
+    <string name="sample_service_url">https://sampleserver6.arcgisonline.com/arcgis/rest/services/Recreation/FeatureServer/0</string>
+    <!-- icon description -->
+    <string name="icon_description">show weather</string>
 </resources>
